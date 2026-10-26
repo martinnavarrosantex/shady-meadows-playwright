@@ -1,0 +1,20 @@
+{
+  "huesped": {
+    "nombre": "Martin",
+    "apellido": "Navarro",
+    "email": "martin.prueba@example.com",
+    "telefono": "01234567890"
+  },
+  "contacto": {
+    "nombre": "Martin Navarro",
+    "email": "martin.prueba@example.com",
+    "telefono": "01234567890",
+    "asunto": "Consulta por reserva",
+    "mensaje": "Hola, quisiera saber si las habitaciones tienen cuna para bebé."
+  },
+  "erroresReservaVacia": [
+    "Firstname should not be blank",
+    "Lastname should not be blank",
+    "must not be empty"
+  ]
+}

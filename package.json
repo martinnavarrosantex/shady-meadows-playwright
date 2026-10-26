@@ -1,0 +1,14 @@
+{
+  "name": "shady-meadows-playwright",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Challenge final QA Path - Shady Meadows B&B con Playwright",
+  "scripts": {
+    "test": "playwright test",
+    "report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.64.1",
+    "@types/node": "^22.0.0"
+  }
+}
