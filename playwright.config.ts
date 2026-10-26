@@ -8,8 +8,6 @@ export default defineConfig({
   use: {
     baseURL: 'https://automationintesting.online',
     // El formulario de contacto usa data-testid (el atributo por defecto de Playwright).
-    // El selector de fechas toma el formato del idioma del navegador: lo fijamos para que sea MM/DD/YYYY en cualquier máquina.
-    locale: 'en-US',
     trace: 'on-first-retry',
     screenshot: 'only-on-failure',
   },

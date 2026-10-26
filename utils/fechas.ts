@@ -14,11 +14,11 @@ export function estadiaLibre() {
   return { checkin, checkout, noches: 2 };
 }
 
-/** Formato del selector de fechas de la home (locale en-US del navegador): MM/DD/YYYY. */
+/** Formato del selector de fechas de la home: la app lo fija en inglés británico (en-GB), DD/MM/YYYY. */
 export function formatoSelector(fecha: Date) {
   const mm = String(fecha.getMonth() + 1).padStart(2, '0');
   const dd = String(fecha.getDate()).padStart(2, '0');
-  return `${mm}/${dd}/${fecha.getFullYear()}`;
+  return `${dd}/${mm}/${fecha.getFullYear()}`;
 }
 
 /** Formato que usa la app en la URL y en la confirmación de la reserva: YYYY-MM-DD. */
